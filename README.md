@@ -1,1 +1,1 @@
-# This is a project that i have created in order to practise my frontend skill.
+# This is a project I have created to practice my frontend skills.
