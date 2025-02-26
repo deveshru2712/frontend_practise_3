@@ -51,7 +51,7 @@ const Services = () => {
               {servicesData.map((item) => (
                 <div
                   key={item.id}
-                  className="max-w-[300px] group rounded-2xl bg-white dark:bg-gray-800 hover:bg-primary hover:text-white duration-300 p-4 shadow-xl "
+                  className="max-w-[300px] group rounded-2xl bg-white hover:bg-primary dark:bg-gray-800 dark:hover:bg-primary dark:hover:text-white duration-300 p-4 shadow-xl "
                 >
                   <div className="h-[100px]">
                     <img
@@ -62,7 +62,7 @@ const Services = () => {
                   </div>
                   <div className="p-4 text-center">
                     <h1 className="text-xl font-bold">{item.name}</h1>
-                    <p className="text-gray-500 text-sm line-sm line-clamp-2 group-hover:text-white duration-300">
+                    <p className="text-gray-500 text-sm line-sm line-clamp-2 dark:group-hover:text-white duration-300">
                       {item.description}
                     </p>
                   </div>
