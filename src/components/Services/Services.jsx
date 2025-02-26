@@ -50,6 +50,8 @@ const Services = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
               {servicesData.map((item) => (
                 <div
+                  data-aos="zoom-in"
+                  data-aos-duration="300"
                   key={item.id}
                   className="max-w-[300px] group rounded-2xl bg-white hover:bg-primary dark:bg-gray-800 dark:hover:bg-primary dark:hover:text-white duration-300 p-4 shadow-xl "
                 >

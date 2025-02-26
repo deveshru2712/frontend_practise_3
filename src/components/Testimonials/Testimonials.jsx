@@ -38,10 +38,7 @@ const Testimonials = () => {
   };
   return (
     <>
-      <div
-        className="py10
-      "
-      >
+      <div data-aos="fade-up" data-aos-duration="300" className="py10">
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
@@ -54,7 +51,11 @@ const Testimonials = () => {
             </p>
           </div>
           {/* Testimonials section*/}
-          <div className="grid grid-cols-1 max-w-[600px] mx-auto gap-6">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="300"
+            className="grid grid-cols-1 max-w-[600px] mx-auto gap-6"
+          >
             <Slider {...settings}>
               {testimonialsData.map((item) => (
                 <div key={item.id} className="my-6 relative">
